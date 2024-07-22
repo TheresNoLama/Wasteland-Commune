@@ -1,0 +1,162 @@
+[
+{
+    "name": "Wasteland Socialist Authority",
+    "isWonder": true,
+    "uniqueTo": "United Commune of People",
+    "specialistSlots": { "Administrator": 1 },
+    "gold": 2,
+    "production": 3,
+    "culture": 3,
+    "faith": 2,
+    "cost": 1,
+    "uniques": [
+        "Provides [2] [Power]",
+        "Provides [2] [Weapons]",
+        "[1] free [Worker] units appear",
+        "[2] free [Elite Militia] units appear",
+        "[+10]% [Production] [in all cities connected to capital]",
+        "[+15]% [Culture] [in all cities connected to capital]",
+        "Free Social Policy",
+        "Gain a free [Communist Cooperative] [in this city]",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured"
+    ],
+    "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
+    "civilopediaText": [
+        {
+            "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. - Old poem from a great person"
+        }
+    ]
+},
+{
+    "name": "Communist Cooperative",
+    "replaces": "Food Store",
+    "isWonder": false,
+    "uniqueTo": "United Commune of People",
+    "food": 1,
+    "culture": 1,
+    "science": 1,
+    "cost": 40,
+    "uniques": [
+
+        "[+1 Production] per [2] population [in this city]",
+        "New [Military] units start with [55] Experience [in this city]",
+        "[25]% Food is carried over after population increases [in this city]",
+        "[+1 Food, +1 Production] [in this city] <with [Salt]>",
+        "[+1 Production, +1 Culture, +1 Gold] [in this city] <with [Alcohol]>",
+        "Destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+        {
+            "text": "...restabilishing a basis for common ownership. - Command 05 from the Socialist Authority"
+        }
+    ]
+},
+{
+    "name": "Marx Library",
+    "replaces": "Library",
+    "uniqueTo":"United Commune of People",
+    "cost": 100,
+    "faith": 1,
+    "culture": 1,
+    "uniques": [
+        "[+1]% [ Production] per [1] population [in this city]",
+        "[+1 Science] per [2] population [in this city]",
+        "[+1 Culture] per [4] population [in this city]"
+    ]
+},
+{
+    "mame": "Hanse Trade Center",
+    "replaces": "Market",
+    "uniqueTo":"United Commune of People",
+    "specialistSlots": { "Merchant": 2 },
+    "gold": 2,
+    "science": 1
+
+},
+{
+    "name": "Workers Monument",
+    "replaces": "Monument",
+    "uniqueTo":"United Commune of People",
+    "production": 1,
+    "culture": 3,
+    "cost": 40,
+    "hurryCostModifier": 40
+},
+{
+    "name": "Harbor-Town",
+    "replaces": "Harbor",
+    "gold": 2,
+    "uniques": [
+        "[+10]% Production when constructing [Water] units [in this city]",
+        "New [Water] units start with [20] experience [in this city]",
+        "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+        "Connects trade routes over water",
+        "Must be next to [Coast]"
+    ]
+},
+{
+    "name": "Liberation Camp",
+    "replaces": "Work Camp",
+    "uniqueTo": "United Commune of People",
+    "happiness": 2,
+    "maintenance": 1,
+    "hurryCostModifier": 0,
+    "uniques": [
+        "Consumes [1] [Slaves]",
+        "[+1] population [in this city]",
+        "[1] free [Worker] units appear",
+        "Only available <with [Slaves]>",
+        "Unsellable"
+    ],
+    "civilopediaText": [
+        {
+            "text": "Enslavers turn people into the walking dead, our new society turn the walking dead back to people. - Propaganda material"
+        }
+    ],
+    "requiredTech": "Construction"
+},
+{
+    "name": "Global Liberation Command",
+    "replaces": "Congress",
+    "uniqueTo": "United Commune of People",
+    "cost": 67,
+    "production": 5,
+    "requiredTech": "Civil Service",
+    "uniques": [
+        "[+20]% Production when constructing [Military] units [in all cities]",
+        "New [Military] units start with [30] Experience [in all cities]",
+        "All newly-trained [relevant] units [in all cities] receive the [Reconnaissance III] promotion",
+        "Only available <if [Search for Survivors] is constructed>",
+        "Can only be built [in capital]",
+        "Only available <in cities without a [Strengthened Mass Line]>",
+        "Destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+        {
+            "text": "The wasteland is filled with scums and exploiters and enslavers, its time to shed a light upon this dark age."
+        }
+    ]
+},
+{
+    "name": "Strengthened Mass Line",
+    "cost": 67,
+    "culture": 6,
+    "replaces": "Council",
+    "uniqueTo": "United Commune of People",
+    "requiredTech": "Civil Service",
+    "uniques": [
+        "[-25]% Unhappiness from [Population] [in all cities]",
+        "[+25]% Production when constructing [All] buildings [in all cities]",
+        "Only available <if [Search for Survivors] is constructed>",
+        "Can only be built [in capital]",
+        "Only available <in cities without a [Global Liberation Command]>",
+        "Destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+        {
+            "text": "By focusing on unity, we shall stand as a new lighthouse for the working class."
+        }
+    ]
+}
+]

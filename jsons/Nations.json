@@ -1,0 +1,66 @@
+[
+	{
+		"name": "United Commune of People",
+		"leaderName": "Similova",
+		"adjective": ["Commuists'"],
+		"preferredVictoryType": "Neutral",
+		"favoredReligion": "Socialism",
+
+		"startIntroPart1": "Working men of all Countries, unite! The revolution will continue, even though the human history has reached its lowest point. Capitalism, reactionary forces remains. Fight back all at once!",
+		"startIntroPart2": "Break the chain!",
+		"declaringWar": "Liberation is imminent.",
+		"attacked": "All reactionary force are mere fake tigers made out of paper, and you will strand in ocean of the people's war.",
+		"defeated": "The revolution wont die, as long as there are exploits, there will be revolt.",
+		"introduction": "I'm Similova, I stand for proletarians of the world, if you are not reactionary scum, we could have some allies.",
+		"neutralHello": "Hello there.",
+		"hateHello": "You are to be hanged on a street light, if you even have any.",
+		"tradeRequest": "Trading materials is good for development, isn't it?",
+
+		"outerColor": [255,33,33],
+		"innerColor": [255,218,65],
+		"style": "",
+		"uniqueName": "Sprits of revolution",
+		"uniques": [
+			"Starts with [Writing]",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Civil Service]",
+			"Starts with [Iron Working]",
+			"Starts with [Construction]",
+			"Starts with [Mining]",
+			"All newly-trained [relevant] units receive the [Extended Range] promotion",
+			"All newly-trained [ relevant] units receive the [Survivalism] promotion",
+			"Starts with [Collectivism] adopted",
+            "[+25]% XP gained from combat",
+            "[-25]% tile improvement construction time",
+			"[+1 Production, +1 Culture] from every [Mine]",
+			"[+2 Culture, +2 Science] from every [Manufactory]",
+			"Each city founded increases culture cost of policies [50]% less than normal",
+            "Cannot build [Enslaved] units"
+		],
+		"cities": [
+			"Moskawa",
+			"Revolution",
+			"Workers Estate",
+			"Neo Beiping",
+			"Marx Town",
+			"Engles Town",
+			"New Komsomolsk",
+			"Socialist City",
+			"Freedom",
+			"Commune",
+			"Unity",
+            "Neo Shanghai",
+            "Red Moscow",
+            "Similovagrad",
+            "Lil Cuba",
+			"Freudtown"
+
+		],
+		"civilopediaText": [
+			{
+				"text": "Working men of all Countries, unite! The revolution will continue, even though the human history has reached its lowest point. Capitalism, reactionary forces remains. Fight back all at once!"
+			},
+			{ "text": "Break the chain!" }
+		]
+	}
+]
