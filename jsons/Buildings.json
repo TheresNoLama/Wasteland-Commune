@@ -18,7 +18,7 @@
         "[+15]% [Culture] [in all cities connected to capital]",
         "Free Social Policy",
         "Gain a free [Communist Cooperative] [in this city]",
-        "Can only be built [in capital]",
+        "Can only be built [in capital cities]",
         "Destroyed when the city is captured"
     ],
     "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
@@ -41,7 +41,7 @@
 
         "[+1 Production] per [2] population [in this city]",
         "New [Military] units start with [55] Experience [in this city]",
-        "[25]% Food is carried over after population increases [in this city]",
+        "[40]% Food is carried over after population increases [in this city]",
         "[+1 Food, +1 Production] [in this city] <with [Salt]>",
         "[+1 Production, +1 Culture, +1 Gold] [in this city] <with [Alcohol]>",
         "Destroyed when the city is captured"
@@ -60,7 +60,7 @@
     "faith": 1,
     "culture": 1,
     "uniques": [
-        "[+1]% [ Production] per [1] population [in this city]",
+        "[+1 Production] per [3] population [in this city]",
         "[+1 Science] per [2] population [in this city]",
         "[+1 Culture] per [4] population [in this city]"
     ]
@@ -69,6 +69,8 @@
     "name": "Hanse Trade Center",
     "replaces": "Market",
     "uniqueTo":"United Commune of People",
+    "hurryCostModifier": 25,
+    "requiredTech": "Trade",
     "specialistSlots": { "Merchant": 2 },
     "gold": 2,
     "science": 1
@@ -86,6 +88,8 @@
 {
     "name": "Harbor-Town",
     "replaces": "Harbor",
+    "requiredTech": "Navigation",
+    "hurryCostModifier": 30,
     "gold": 2,
     "uniques": [
         "[+10]% Production when constructing [Water] units [in this city]",
@@ -128,7 +132,7 @@
         "New [Military] units start with [30] Experience [in all cities]",
         "All newly-trained [relevant] units [in all cities] receive the [Reconnaissance III] promotion",
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built [in capital]",
+        "Can only be built [in capital cities]",
         "Only available <in cities without a [Strengthened Mass Line]>",
         "Destroyed when the city is captured"
     ],
@@ -149,7 +153,7 @@
         "[-25]% Unhappiness from [Population] [in all cities]",
         "[+25]% Production when constructing [All] buildings [in all cities]",
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built [in capital]",
+        "Can only be built [in capital cities]",
         "Only available <in cities without a [Global Liberation Command]>",
         "Destroyed when the city is captured"
     ],
