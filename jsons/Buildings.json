@@ -2,7 +2,7 @@
 {
     "name": "Wasteland Socialist Base",
     "isWonder": true,
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "specialistSlots": { "Administrator": 1 },
     "gold": 2,
     "production": 3,
@@ -13,12 +13,12 @@
         "Provides [2] [Power]",
         "Provides [2] [Weapons]",
         "[1] free [Worker] units appear",
-        "[2] free [Freedom Fighters] units appear",
+        "[2] free [Freedom Fighter] units appear",
         "[+10]% [Production] [in all cities connected to capital]",
         "[+15]% [Culture] [in all cities connected to capital]",
         "[2] Free Social Policies",
         "Gain a free [Communist Cooperative] [in this city]",
-        "Can only be built [in capital cities]",
+        "Can only be built <in [Capital] cities>",
         "Destroyed when the city is captured"
     ],
     "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
@@ -32,7 +32,7 @@
     "name": "Communist Cooperative",
     "replaces": "Food Store",
     "isWonder": false,
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "food": 1,
     "culture": 1,
     "science": 1,
@@ -41,7 +41,7 @@
 
         "[+1 Production] per [2] population [in this city]",
         "New [Military] units start with [60] Experience [in this city]",
-        "[40]% Food is carried over after population increases [in this city]",
+        "[30]% Food is carried over after population increases [in this city]",
         "[+1 Food, +1 Production] [in this city] <with [Salt]>",
         "[+1 Production, +1 Culture, +1 Gold] [in this city] <with [Alcohol]>",
         "Destroyed when the city is captured"
@@ -55,7 +55,7 @@
 {
     "name": "Pub",
     "replaces": "Distillery",
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "requiredTech": "Chemistry",
     "hurryCostModifier": 25,
     "happiness": 2,
@@ -67,8 +67,8 @@
 {
     "name": "Marx Library",
     "replaces": "Library",
-    "uniqueTo":"Wastelanders Commune",
-    "cost": 100,
+    "uniqueTo":"Wasteland Commune",
+    "cost": 110,
     "faith": 1,
     "culture": 1,
     "uniques": [
@@ -80,28 +80,27 @@
 {
     "name": "Geothermal Plant",
     "replaces": "Hydro Plant",
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "hurryCostModifier": 45,
-    "cost": 200,
+    "cost": 220,
     "requiredTech": "Steam Power",
     "uniques":[
         "Must have an owned [Fissure] within [3] tiles",
         "Provides [3] [Power]",
-        "[+2 Production, +2 Science] from [Fissure] tiles [in this city]",
+        "[+1 Production, +2 Science] from [Fissure] tiles [in this city]",
         "Only available <in cities with a [Library]>"
     ]
 },
 {
     "name": "Hanse Trade Center",
     "replaces": "Market",
-    "uniqueTo":"Wastelanders Commune",
+    "uniqueTo":"Wasteland Commune",
     "hurryCostModifier": 25,
     "requiredTech": "Trade",
     "specialistSlots": { "Merchant": 2 },
     "gold": 2,
     "science": 1,
     "uniques":[
-        "[+1 Gold] from [lurury resource] tiles [in this city]",
         "[+1 Gold] from [strategic resource] tiles [in this city]",
         "[+1 Gold] from [grain] tiles [in this city]"
     ]
@@ -110,7 +109,7 @@
 {
     "name": "Workers Monument",
     "replaces": "Monument",
-    "uniqueTo":"Wastelanders Commune",
+    "uniqueTo":"Wasteland Commune",
     "production": 1,
     "culture": 3,
     "cost": 40,
@@ -119,7 +118,7 @@
 {
     "name": "Harbor-Town",
     "replaces": "Harbor",
-    "uniqueTo":"Wastelanders Commune",
+    "uniqueTo":"Wasteland Commune",
     "requiredTech": "Navigation",
     "hurryCostModifier": 30,
     "gold": 2,
@@ -134,7 +133,7 @@
 {
     "name": "Liberation Camp",
     "replaces": "Work Camp",
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "happiness": 2,
     "maintenance": 1,
     "hurryCostModifier": 0,
@@ -155,7 +154,7 @@
 {
     "name": "Global Liberation Command",
     "replaces": "Congress",
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "cost": 67,
     "production": 5,
     "requiredTech": "Civil Service",
@@ -164,7 +163,7 @@
         "New [Military] units start with [30] Experience [in all cities]",
         "All newly-trained [relevant] units [in all cities] receive the [Reconnaissance III] promotion",
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built [in capital cities]",
+        "Can only be built <in [Capital] cities>",
         "Only available <in cities without a [Strengthened Mass Line]>",
         "Destroyed when the city is captured"
     ],
@@ -179,13 +178,13 @@
     "cost": 67,
     "culture": 6,
     "replaces": "Council",
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "requiredTech": "Civil Service",
     "uniques": [
         "[-25]% Unhappiness from [Population] [in all cities]",
         "[+25]% Production when constructing [All] buildings [in all cities]",
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built [in capital cities]",
+        "Can only be built <in [Capital] cities>",
         "Only available <in cities without a [Global Liberation Command]>",
         "Destroyed when the city is captured"
     ],

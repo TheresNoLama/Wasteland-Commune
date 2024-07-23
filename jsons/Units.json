@@ -11,7 +11,7 @@
     "requiredTech": "The Wheel",
     "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Rifleman",
-    "uniqueTo":  "Wastelanders Commune",
+    "uniqueTo":  "Wasteland Commune",
     "replaces": "Gunman",
     "hurryCostModifier": 20,
     "uniques": [
@@ -27,7 +27,7 @@
 {
     "name": "Factory Worker",
     "unitType": "Shooter",
-    "uniqueTo": "Wastelanders Commune",
+    "uniqueTo": "Wasteland Commune",
     "range": 1,
     "movement": 2,
     "strength": 22,
@@ -53,7 +53,7 @@
     "cost": 250,
     "requiredTech": "Combined Arms",
     "upgradesTo": "Modern Armor",
-    "uniqueTo":  "Wastelanders Commune",
+    "uniqueTo":  "Wasteland Commune",
     "replaces": "Tank",
     "obsoleteTech": "Advanced Materials",
     "uniques": [
@@ -78,7 +78,7 @@
     "rangedStrength": 50,
     "range": 3,
     "cost": 350,
-    "uniqueTo":  "Wastelanders Commune",
+    "uniqueTo":  "Wasteland Commune",
     "requiredTech": "Rocketry",
     "replaces": "Rocket Artillery",
     "uniques": [
