@@ -16,8 +16,8 @@
 		"hateHello": "You are to be hanged on a street light, if you even have any.",
 		"tradeRequest": "Trading materials is good for development, isn't it?",
 
-		"outerColor": [255,30,32],
-		"innerColor": [255,255,255],
+		"outerColor": [255,28,31],
+		"innerColor": [10,10,10],
 		"style": "",
 		"uniqueName": "Viva la Revolution",
 		"uniques": [
@@ -47,11 +47,12 @@
             "Red Winter",
             "Similovagrad",
 			"Scholl",
-            "Cuba",
+            "Cubawanna",
 			"Freudtgrad",
 			"Lipzk",
 			"Krupskaya",
-			"Petersburg"
+			"Petersburg",
+			"Kalin"
 
 
 		],
