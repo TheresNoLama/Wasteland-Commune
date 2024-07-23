@@ -140,7 +140,7 @@
     "gold": 2,
     "uniques": [
         "[+10]% Production when constructing [Water] units [in this city]",
-        "New [Water] units start with [20] experience [in this city]",
+        "New [Water] units start with [20] Experience [in this city]",
         "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
         "Connects trade routes over water",
         "Must be next to [Coast]"
