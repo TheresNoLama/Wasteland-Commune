@@ -7,7 +7,7 @@
     "strength": 30,
     "rangedStrength": 35,
     "interceptRange": 1,
-    "cost": 75,
+    "cost": 70,
     "requiredTech": "The Wheel",
     "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Rifleman",
@@ -78,7 +78,7 @@
     "rangedStrength": 50,
     "range": 3,
     "cost": 350,
-    "uniqueTo":  "Wasteland Commune",
+    "uniqueTo": "Wasteland Commune",
     "requiredTech": "Rocketry",
     "replaces": "Rocket Artillery",
     "uniques": [
