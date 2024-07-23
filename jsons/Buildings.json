@@ -127,7 +127,7 @@
     "faith": 1,
     "uniques": [
         "[+5]% great person generation [in all cities]",
-        ["Hidden when religion is disabled"]
+        "Hidden when religion is disabled"
     ]
     
 },
