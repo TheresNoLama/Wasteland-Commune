@@ -126,7 +126,7 @@
     "cost": 65,
     "faith": 1,
     "uniques": [
-        "[+5]% great person generation [in all cities]"
+        "[+5]% great person generation [in all cities]",
         ["Hidden when religion is disabled"]
     ]
     
