@@ -85,7 +85,7 @@
         "[+150]% Strength <vs cities> <when attacking>",
         "No defensive terrain bonus",
         "[-20]% Strength <vs [Helicopter] units>",
-        "May withdraw before melee ([50]%)",
+        "Withdraws before melee combat <with [50]%> chance",
         "Only available <if [Factory] is constructed>",
         "Can carry [1] [Missile] units",
         "Never appears as a Barbarian unit"
