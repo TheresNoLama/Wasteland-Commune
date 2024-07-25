@@ -3,6 +3,7 @@
 		"name": "Wasteland Commune",
 		"leaderName": "Similova",
 		"adjective": ["Commuists'"],
+		"startBias": ["Jungle","Salt"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Humanism",
 
@@ -30,12 +31,10 @@
 			"All newly-trained [Ranged] units [in your cities] receive the [Extended Range] promotion",
 			"All newly-trained [Military] units [in your cities] receive the [Survivalism] promotion",
 			"Starts with [Collectivism] adopted",
-			"Starts with [Monopoly] adopted",
-            "[+50]% XP gained from combat",
+            "[+20]% XP gained from combat",
             "[-25]% construction time for [All] improvements",
 			"[+1 Production, +1 Culture] from every [Mine]",
 			"[+1 Culture, +2 Science] from every [Manufactory]",
-			"Each city founded increases culture cost of policies [50]% less than normal",
             "Cannot build [Enslaved] units"
 		],
 		"cities": [

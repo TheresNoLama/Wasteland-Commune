@@ -101,7 +101,7 @@
     "hurryCostModifier": 25,
     "requiredTech": "Trade",
     "specialistSlots": { "Merchant": 2 },
-    "gold": 2,
+    "gold": 1,
     "science": 1,
     "uniques":[
         "[+1 Gold] from [strategic resource] tiles [in this city]",
