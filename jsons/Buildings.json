@@ -175,7 +175,7 @@
         "Only available <after adopting [Collectivism Complete]>",
         "[-50]% construction time for [All] improvements",
         "Empire enters golden age",
-        "[+25%] XP gained from combat",
+        "[+25]% XP gained from combat",
         "[+15]% [Production] [in all cities connected to capital]",
         "[+20]% [Gold] from Trade Routes"
     ]
@@ -190,7 +190,7 @@
     "science": 1,
     "uniques":[
         "[+2 Science] from Trade Routes",
-        "[+25%] XP gained from combat",
+        "[+25]% XP gained from combat",
         "Free Technology"
     ]
 },
