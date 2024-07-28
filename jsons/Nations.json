@@ -3,7 +3,7 @@
 		"name": "Wasteland Commune",
 		"leaderName": "Similova",
 		"adjective": ["Commuists'"],
-		"startBias": ["Jungle","Salt"],
+		"startBias": ["Hill","Coal"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Humanism",
 
@@ -28,13 +28,13 @@
 			"Starts with [Iron Working]",
 			"Starts with [Construction]",
 			"Starts with [Mining]",
-			"All newly-trained [Ranged] units [in your cities] receive the [Extended Range] promotion",
-			"All newly-trained [Military] units [in your cities] receive the [Survivalism] promotion",
+			"[Ranged] units gain the [Extended Range] promotion <after discovering [Rifling]>",
+			"[Military] units gain the [Survivalism] promotion <after discovering [Decontamination]>",
+			"[Military] units gain the [Forage] promotion <after discovering [Replaceable Parts]>",
 			"Starts with [Collectivism] adopted",
-            "[+20]% XP gained from combat",
-            "[-25]% construction time for [All] improvements",
 			"[+1 Production, +1 Culture] from every [Mine]",
-			"[+1 Culture, +2 Science] from every [Manufactory]",
+			"[+1 Culture, +1 Science] from every [ Borough]",
+			"[+2 Science] from every [Manufactory]",
             "Cannot build [Enslaved] units"
 		],
 		"cities": [

@@ -9,13 +9,12 @@
     "faith": 2,
     "cost": 1,
     "uniques": [
-        "Provides [2] [Power]",
+        "Provides [1] [Power]",
         "Provides [2] [Weapons]",
         "[1] free [Worker] units appear",
-        "[2] free [Freedom Fighter] units appear",
+        "[1] free [Freedom Fighter] units appear",
         "[+10]% [Production] [in all cities connected to capital]",
         "[+10]% [Culture] [in all cities connected to capital]",
-        "Free Social Policy",
         "Gain a free [Communist Cooperative] [in this city]",
         "Can only be built <in [Capital] cities>",
         "Destroyed when the city is captured"
@@ -38,10 +37,10 @@
     "cost": 50,
     "uniques": [
 
-        "[+1 Production] per [2] population [in this city]",
+        "[+1 Production] per [3] population [in this city]",
         "New [Military] units start with [15] Experience [in this city]",
-        "[+1 Food, +1 Production] [in this city] <with [Salt]>",
-        "[+1 Faith, +1 Culture, +1 Gold] [in this city] <with [Alcohol]>",
+        "[+1 Science, +1 Production] [in this city] <with [Coal]>",
+        "[+1 Faith, +1 Culture] [in this city] <with [Alcohol]>",
         "Destroyed when the city is captured"
     ],
     "civilopediaText": [
@@ -74,7 +73,7 @@
     "faith": 1,
     "culture": 1,
     "uniques": [
-        "[+1 Production] per [3] population [in this city]",
+        "[+1 Production] per [4] population [in this city]",
         "[+1 Science] per [2] population [in this city]",
         "[+1 Culture] per [5] population [in this city]"
     ]
@@ -84,7 +83,7 @@
     "replaces": "Hydro Plant",
     "uniqueTo": "Wasteland Commune",
     "hurryCostModifier": 45,
-    "cost": 220,
+    "cost": 200,
     "requiredTech": "Steam Power",
     "uniques":[
         "Must have an owned [Fissure] within [3] tiles",
@@ -104,7 +103,7 @@
     "science": 1,
     "uniques":[
         "[+1 Gold] from [strategic resource] tiles [in this city]",
-        "[+1 Gold] from [grain] tiles [in this city]"
+        "[+2 Gold] from [Great Improvement] tiles [in this city]"
     ]
 
 },
@@ -114,7 +113,7 @@
     "uniqueTo":"Wasteland Commune",
     "production": 1,
     "culture": 3,
-    "cost": 40,
+    "cost": 45,
     "hurryCostModifier": 40
 },
 {
@@ -122,7 +121,7 @@
     "replaces": "Shrine",
     "uniqueTo": "Wasteland Commune",
     "requiredTech": "Secrets of the Past",
-    "cost": 65,
+    "cost": 67,
     "faith": 1,
     "uniques": [
         "[+5]% Great Person generation [in your cities]",
@@ -167,10 +166,39 @@
     "requiredTech": "Construction"
 },
 {
+    "name": "Logistics Network",
+    "uniqueTo": "Wasteland Commune",
+    "isNationalWonder": true,
+    "cost": 1225,
+    "requiredTech":"Railroads",
+    "uniques":[
+        "Only available <after adopting [Collectivism Complete]>",
+        "[-50]% construction time for [All] improvements",
+        "Empire enters golden age",
+        "[+25%] XP gained from combat",
+        "[+15]% [Production] [in all cities connected to capital]",
+        "[+20]% [Gold] from Trade Routes"
+    ]
+},
+{
+    "name": "Intelligence Agency",
+    "uniqueTo": "Wasteland Commune",
+    "isNationalWonder" : true,
+    "cost": 556,
+    "requiredTech": "Networking",
+    "percentStatBonus": { "science": 10 },
+    "science": 1,
+    "uniques":[
+        "[+2 Science] from Trade Routes",
+        "[+25%] XP gained from combat",
+        "Free Technology"
+    ]
+},
+{
     "name": "Liberation Command",
     "replaces": "Council",
     "uniqueTo": "Wasteland Commune",
-    "cost": 130,
+    "cost": 150,
     "requiredTech": "Civil Service",
     "uniques": [
         "[+1 Production] per [4] population [in this city]",
@@ -190,7 +218,7 @@
 },
 {
     "name": "Planning Council",
-    "cost": 130,
+    "cost": 150,
     "replaces": "Congress",
     "uniqueTo": "Wasteland Commune",
     "requiredTech": "Civil Service",
