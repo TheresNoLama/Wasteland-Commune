@@ -222,9 +222,9 @@
     "cost": 556,
     "requiredTech": "Networking",
     "percentStatBonus": { "science": 10 },
-    "science": 1,
+    "science": 2,
     "uniques":[
-        "[+2 Science] from Trade Routes",
+        "[+2 Science] from each Trade Route",
         "[+25]% XP gained from combat",
         "Free Technology"
     ]
