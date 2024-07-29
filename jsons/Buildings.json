@@ -80,7 +80,6 @@
 },
 {
     "name": "Geothermal Plant",
-    "replaces": "Hydro Plant",
     "uniqueTo": "Wasteland Commune",
     "hurryCostModifier": 45,
     "cost": 200,
@@ -90,6 +89,43 @@
         "Provides [3] [Power]",
         "[+1 Production, +2 Science] from [Fissure] tiles [in this city]",
         "Only available <in cities with a [Library]>"
+    ]
+},
+{
+    "name": "Wind Turbines",
+    "uniqueTo": "Wasteland Commune",
+    "cost": 200,
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "requiredTech": "Replaceable Parts",
+    "greatPersonPoints":{ "Great Engineer": 1 },
+    "happiness": 1,
+    "science":1,
+    "uniques":[
+        "Provides [2] [Power]",
+        "Must have an owned [Hill] within [3] tiles",
+        "Science gained from research agreements [5]%"
+    ]
+},
+{
+    "name": "Industrial Furnace",
+    "replaces": "Blast Furnace",
+    "uniqueTo": "Wasteland Commune",
+    "greatPersonPoints": { "Great Engineer": 2 },
+    "specialistSlots": { "Engineer": 1 },
+    "maintenance": 2,
+    "cost": "257",
+    "hurryCostModifier": 25,
+    "requiredTech": "Steel",
+    "requiredNearbyImprovedResources": ["Scrap", "Metal"],
+    "culture": 1,
+    "uniques": [
+        "[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
+        "[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
+        "[-1 Food, +2 Science, +1 Production, -1 Gold] from [Great Improvement] tiles [in this city]",
+        "Consumes [1] [Coal]",
+        "Consumes [1] [Power]",
+        "Provides [1] [Weapons]"
     ]
 },
 {
@@ -105,7 +141,6 @@
         "[+1 Gold] from [strategic resource] tiles [in this city]",
         "[+2 Gold] from [Great Improvement] tiles [in this city]"
     ]
-
 },
 {
     "name": "Workers Monument",
