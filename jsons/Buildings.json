@@ -82,7 +82,7 @@
     "name": "Geothermal Plant",
     "uniqueTo": "Wasteland Commune",
     "hurryCostModifier": 45,
-    "cost": 200,
+    "cost": 125,
     "requiredTech": "Steam Power",
     "uniques":[
         "Must have an owned [Fissure] within [3] tiles",
@@ -94,7 +94,7 @@
 {
     "name": "Wind Turbines",
     "uniqueTo": "Wasteland Commune",
-    "cost": 200,
+    "cost": 220,
     "maintenance": 1,
     "hurryCostModifier": 25,
     "requiredTech": "Replaceable Parts",
@@ -104,7 +104,7 @@
     "uniques":[
         "Provides [2] [Power]",
         "Must have an owned [Hill] within [3] tiles",
-        "Science gained from research agreements [5]%"
+        "Science gained from research agreements [10]%"
     ]
 },
 {
@@ -122,7 +122,7 @@
     "uniques": [
         "[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
         "[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
-        "[-1 Food, +2 Science, +1 Production, -1 Gold] from [Great Improvement] tiles [in this city]",
+        "[-1 Food, +2 Science, +1 Production] from [Great Improvement] tiles [in this city]",
         "Consumes [1] [Coal]",
         "Consumes [1] [Power]",
         "Provides [1] [Weapons]"
@@ -138,7 +138,8 @@
     "gold": 1,
     "science": 1,
     "uniques":[
-        "[+1 Gold] from [strategic resource] tiles [in this city]",
+        "[+1 Gold] from [Mine] tiles [in this city]",
+        "[+1 Gold] from [Borehole] tiles [in this city]",
         "[+2 Gold] from [Great Improvement] tiles [in this city]"
     ]
 },
@@ -156,7 +157,7 @@
     "replaces": "Shrine",
     "uniqueTo": "Wasteland Commune",
     "requiredTech": "Secrets of the Past",
-    "cost": 67,
+    "cost": 60,
     "faith": 1,
     "uniques": [
         "[+5]% Great Person generation [in your cities]",
@@ -164,6 +165,20 @@
     ]
     
 },
+{
+    "name": "Outpost",
+    "uniqueTo": "Wasteland Commune",
+    "requiredTech": "Radio",
+    "cost": 200,
+    "food": 1,
+    "uniques":[
+        "[+1] XP gained from combat",
+        "Only available <if [Barracks] is constructed>",
+        "[+1 Food, +1 Gold] per [5] population [in this city]",
+        "[+1 Science] per [6] population [in this city]",
+        "Consumes [1] [Power]"
+    ]
+}
 {
     "name": "Harbor-Town",
     "replaces": "Harbor",
