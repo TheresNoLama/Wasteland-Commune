@@ -69,7 +69,7 @@
     "name": "Marx Library",
     "replaces": "Library",
     "uniqueTo":"Wasteland Commune",
-    "cost": 110,
+    "cost": 125,
     "faith": 1,
     "culture": 1,
     "uniques": [
@@ -82,7 +82,7 @@
     "name": "Communal Office",
     "replaces": "Town Hall",
     "uniqueTo": "Wasteland Commune",
-    "cost": 110,
+    "cost": 150,
     "maintenance": 1,
     "happiness": 1,
     "culture": 1,
@@ -132,11 +132,12 @@
     "greatPersonPoints": { "Great Engineer": 2 },
     "specialistSlots": { "Engineer": 1 },
     "maintenance": 2,
-    "cost": "257",
+    "cost": "556",
     "hurryCostModifier": 25,
     "requiredTech": "Steel",
     "requiredNearbyImprovedResources": ["Scrap", "Metal"],
     "culture": 1,
+    "happiness": -1,
     "uniques": [
         "[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
         "[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
@@ -202,6 +203,7 @@
     "replaces": "Harbor",
     "uniqueTo":"Wasteland Commune",
     "requiredTech": "Navigation",
+    "cost": 100,
     "hurryCostModifier": 30,
     "gold": 2,
     "uniques": [
@@ -237,7 +239,7 @@
     "name": "Logistics Network",
     "uniqueTo": "Wasteland Commune",
     "isNationalWonder": true,
-    "cost": 1225,
+    "cost": 1325,
     "requiredTech":"Railroads",
     "uniques":[
         "Only available <after adopting [Collectivism Complete]>",
