@@ -79,6 +79,24 @@
     ]
 },
 {
+    "name": "Communal Office",
+    "replaces": "Town Hall",
+    "uniqueTo": "Wasteland Commune",
+    "cost": 110,
+    "maintenance": 1,
+    "happiness": 1,
+    "culture": 1,
+    "requiredTech": "Civil Service",
+    "uniques":[
+        "Only available <in cities with a [Communist Cooperative]>",
+        "[+33]% Production when constructing [Civilist] units [in this city]",
+        "[-25]% Culture cost of natural border growth [in this city]",
+        "[-25]% Gold cost of acquiring tiles [in this city]",
+        "[+1 Happiness, +1 Culture] per [6] social policies adopted",
+        "Each city founded increases culture cost of policies [5]% less than normal"
+    ]
+},
+{
     "name": "Geothermal Plant",
     "uniqueTo": "Wasteland Commune",
     "hurryCostModifier": 45,
@@ -178,7 +196,7 @@
         "[+1 Science] per [6] population [in this city]",
         "Consumes [1] [Power]"
     ]
-}
+},
 {
     "name": "Harbor-Town",
     "replaces": "Harbor",
