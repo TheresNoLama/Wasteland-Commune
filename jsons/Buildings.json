@@ -131,16 +131,16 @@
     "uniqueTo": "Wasteland Commune",
     "greatPersonPoints": { "Great Engineer": 2 },
     "specialistSlots": { "Engineer": 1 },
-    "maintenance": 2,
-    "cost": "556",
+    "maintenance": 3,
+    "cost": "600",
     "hurryCostModifier": 25,
     "requiredTech": "Steel",
     "requiredNearbyImprovedResources": ["Scrap", "Metal"],
     "culture": 1,
-    "happiness": -1,
+    "happiness": -2,
     "uniques": [
-        "[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
-        "[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
+        "[-1 Food, +3 Production, -1 Gold] from [Scrap] tiles [in this city]",
+        "[-1 Food, +2 Production] from [Metal] tiles [in this city]",
         "[-1 Food, +2 Science, +1 Production] from [Great Improvement] tiles [in this city]",
         "Consumes [1] [Coal]",
         "Consumes [1] [Power]",
@@ -189,13 +189,13 @@
     "name": "Outpost",
     "uniqueTo": "Wasteland Commune",
     "requiredTech": "Radio",
-    "cost": 200,
+    "cost": 220,
     "food": 1,
     "uniques":[
         "[+1] XP gained from combat",
         "Only available <if [Barracks] is constructed>",
-        "[+1 Food, +1 Gold] per [5] population [in this city]",
-        "[+1 Science] per [6] population [in this city]",
+        "[+2 Food, +1 Gold] per [4] population [in this city]",
+        "[+1 Science] per [5] population [in this city]",
         "Consumes [1] [Power]"
     ]
 },
@@ -240,15 +240,15 @@
     "name": "Logistics Network",
     "uniqueTo": "Wasteland Commune",
     "isNationalWonder": true,
-    "cost": 1325,
+    "cost": 1550,
     "requiredTech":"Railroads",
     "uniques":[
         "Only available <after adopting [Collectivism Complete]>",
         "[-50]% construction time for [All] improvements",
         "Empire enters golden age",
         "[+25]% XP gained from combat",
-        "[+15]% [Production] [in all cities connected to capital]",
-        "[+20]% [Gold] from Trade Routes"
+        "[+20]% [Production] [in all cities connected to capital]",
+        "[+25]% [Gold] from Trade Routes"
     ]
 },
 {
