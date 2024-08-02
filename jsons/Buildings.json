@@ -69,7 +69,7 @@
     "name": "Marx Library",
     "replaces": "Library",
     "uniqueTo":"Wasteland Commune",
-    "cost": 125,
+    "cost": 120,
     "faith": 1,
     "culture": 1,
     "uniques": [
@@ -82,7 +82,7 @@
     "name": "Communal Office",
     "replaces": "Town Hall",
     "uniqueTo": "Wasteland Commune",
-    "cost": 200,
+    "cost": 190,
     "maintenance": 1,
     "happiness": 1,
     "culture": 1,
@@ -171,7 +171,7 @@
     "production": 1,
     "culture": 3,
     "cost": 45,
-    "hurryCostModifier": 40
+    "hurryCostModifier": 25
 },
 {
     "name": "Revolutionary Monument",
@@ -190,10 +190,10 @@
     "name": "Outpost",
     "uniqueTo": "Wasteland Commune",
     "requiredTech": "Radio",
-    "cost": 220,
+    "cost": 200,
     "food": 1,
     "uniques":[
-        "[+1] XP gained from combat",
+        "[+5]% XP gained from combat",
         "Only available <if [Barracks] is constructed>",
         "[+2 Food, +1 Gold] per [4] population [in this city]",
         "[+1 Science] per [5] population [in this city]",
@@ -247,7 +247,7 @@
         "Only available <after adopting [Collectivism Complete]>",
         "[-50]% construction time for [All] improvements",
         "Empire enters golden age",
-        "[+25]% XP gained from combat",
+        "[+30]% XP gained from combat",
         "[+20]% [Production] [in all cities connected to capital]",
         "[+25]% [Gold] from Trade Routes"
     ]
@@ -262,7 +262,7 @@
     "science": 2,
     "uniques":[
         "[+2 Science] from each Trade Route",
-        "[+25]% XP gained from combat",
+        "[+30]% XP gained from combat",
         "Free Technology"
     ]
 },
