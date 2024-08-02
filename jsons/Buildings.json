@@ -36,7 +36,6 @@
     "science": 1,
     "cost": 50,
     "uniques": [
-
         "[+1 Production] per [3] population [in this city]",
         "New [Military] units start with [15] Experience [in this city]",
         "[+1 Science, +1 Production] [in this city] <with [Coal]>",
@@ -94,6 +93,19 @@
         "[-25]% Gold cost of acquiring tiles [in this city]",
         "[+1 Happiness, +1 Culture] per [6] social policies adopted",
         "Each city founded increases culture cost of policies [5]% less than normal"
+    ]
+},
+{
+    "name": "Prospectors Facility",
+    "uniqueTo": "Wasteland Commune",
+    "requiredTech": "Ecology",
+    "percentStatBonus": { "food": 10 },
+    "production": -3,
+    "uniques":[
+        "[Melee] units gain the [Prospector] promotion",
+        "[+1 Science, +1 Water] from [Rubble] tiles [in this city]",
+        "[+1 Science, +1 Water] from [Ruins] tiles [in this city]",
+        "Consumes [1] [Power]"
     ]
 },
 {
