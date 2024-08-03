@@ -102,10 +102,24 @@
     "percentStatBonus": { "food": 10 },
     "production": -3,
     "uniques":[
-        "[Melee] units gain the [Prospector] promotion",
+        "[{Melee} {Land}] units gain the [Prospector] promotion",
         "[+1 Science, +1 Gold] from [Rubble] tiles [in this city]",
         "[+1 Science, +1 Gold] from [Ruins] tiles [in this city]",
         "Consumes [1] [Power]"
+    ]
+},
+{
+    "name": "Armor-Enhancement Center pursuit",
+    "replaces": "Armor Production Line",
+    "uniqueTo": "Wasteland Commune",
+    "maintenance": 2,
+    "percentStatBonus": { "production": 10 },
+    "production": -2,
+    "requiredTech": "Combined Arms",
+    "uniques":[
+        "[+50]% Production when constructing [Armor] units [in this city] <when above [0] [Power]>",
+        "[Armor] units gain the [Pusuit] promotion",
+        "Consumes [2] [Power]"
     ]
 },
 {
