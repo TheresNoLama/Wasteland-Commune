@@ -118,7 +118,7 @@
     "requiredTech": "Combined Arms",
     "uniques":[
         "[+50]% Production when constructing [Armor] units [in this city] <when above [0] [Power]>",
-        "[Armor] units gain the [Pusuit] promotion",
+        "[Armor] units gain the [Pursuit] promotion",
         "Consumes [2] [Power]"
     ]
 },
