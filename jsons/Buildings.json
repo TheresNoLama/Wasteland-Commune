@@ -103,8 +103,8 @@
     "production": -3,
     "uniques":[
         "[{Melee} {Land}] units gain the [Prospector] promotion",
-        "[+1 Science, +1 Gold] from [Rubble] tiles [in this city]",
-        "[+1 Science, +1 Gold] from [Ruins] tiles [in this city]",
+        "[+1 Science, +1 Gold] from [Jungle] tiles [in this city]",
+        "[+1 Science, +1 Gold] from [Forest] tiles [in this city]",
         "Consumes [1] [Power]"
     ]
 },
