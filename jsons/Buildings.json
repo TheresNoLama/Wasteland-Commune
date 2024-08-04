@@ -109,12 +109,12 @@
     ]
 },
 {
-    "name": "Armor-Enhancement Center pursuit",
+    "name": "Armor-Enhancement Center",
     "replaces": "Armor Production Line",
     "uniqueTo": "Wasteland Commune",
     "maintenance": 2,
     "percentStatBonus": { "production": 10 },
-    "production": -2,
+    "production": -3,
     "requiredTech": "Combined Arms",
     "uniques":[
         "[+50]% Production when constructing [Armor] units [in this city] <when above [0] [Power]>",
