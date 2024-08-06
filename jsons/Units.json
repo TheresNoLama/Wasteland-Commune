@@ -74,10 +74,10 @@
     "name": "Wind of the East",
     "unitType": "Siege",
     "movement": 3,
-    "strength": 25,
-    "rangedStrength": 50,
+    "strength": 30,
+    "rangedStrength": 55,
     "range": 3,
-    "cost": 350,
+    "cost": 370,
     "uniqueTo": "Wasteland Commune",
     "requiredTech": "Rocketry",
     "replaces": "Rocket Artillery",
@@ -85,7 +85,7 @@
         "[+150]% Strength <vs cities> <when attacking>",
         "No defensive terrain bonus",
         "[-20]% Strength <vs [Helicopter] units>",
-        "Withdraws before melee combat <with [50]%> chance",
+        "Withdraws before melee combat <with [50]% chance>",
         "Only available <if [Factory] is constructed>",
         "Can carry [1] [Missile] units",
         "Never appears as a Barbarian unit"
@@ -93,5 +93,44 @@
     "promotions": ["Artillery","Logistics"],
     "hurryCostModifier": 20,
     "attackSound": "artillery"
+},
+{
+    "name":"RAD",
+    "unitType": "Helicopter",
+    "replaces": "Hovercraft",
+    "uniqueTo": "Wasteland Commune",
+    "movement": "10",
+    "strength": 55,
+    "rangedStrength": 85,
+    "range": 2,
+    "interceptRange": 3,
+    "cost": 750,
+    "requiredTech": "Lasers",
+    "uniques":[
+        "[50]% chance to intercept air attacks",
+        "[+2] Sight",
+        "Can move after attacking",
+        "Ranged attacks may be performed over obstacles",
+        "Withdraws before melee combat <with [100]% chance>",
+        "Only available <if [Aerospace Facility] is constructed>",
+        "[1] additional attacks per turn",
+        "Double movement in [Friendly Land]",
+        "Double movement in [Water]",
+        "Earn [100]% of killed [Military] unit's [Cost] as [Culture]",
+        "May capture killed [Great Person] units",
+        "Consumes [1] [Oil]",
+        "Consumes [1] [Aluminum]",
+        "Never appears as a Barbarian unit"
+    ],
+    "promotions":[
+        "Advanced Weapons",
+        "Antitank Missile",
+        "Artillery",
+        "Urban Warfare I",
+        "Precision",
+        "Reconnaissance III",
+        "Suppression"
+    ],
+    "attackSound": "jetgun"
 }
 ]
